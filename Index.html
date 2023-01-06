@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>
+      Ali Hassan | JAVA Script React Js Developer Make your website from me
+    </title>
+    <meta
+      name="title"
+      content="Drew Hays - Get your product identity from me."
+    />
+    <meta
+      name="description"
+      content="This is a personal portfolio html template made by Ali Hassan"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="short icon" type="image" href="assets/images/shorticon.png" />
+    <!-- 
+    - google font link
+  -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/font/font.css" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/mediaquries.css">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-shape-1.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-shape-2.png" />
+  </head>
+
+  <body id="top">
+ <!-- Preloader section -->
+
+    <div class="preloader" data-preloader>
+      <span class="line"></span>
+    </div>
+
+   <!-- Header section -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.png"
+            width="84"
+            height="26"
+            alt="logo"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.png"
+                width="84"
+                height="26"
+                alt="logo"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#services" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li>
+              <a href="#project" class="navbar-link" data-nav-link>Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="assets/images/Ali-Hassan-Resume.pdf"   download class="btn btn:hover">
+          <span class="span">Download CV</span>
+
+          <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+        </a>
+
+        <button
+          class="nav-open-btn btn:hover"
+          aria-label="open menu"
+          data-nav-toggler
+        >
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+        </button>
+
+        <div class="overlay" data-overlay data-nav-toggler></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- Hero section -->
+        <div class="hero text-center" id="home">
+          <div class="container">
+            <div class="banner-outline has-after">
+              <div
+                class="hero-banner img-holder has-after"
+                style="--width: 500; --height: 680"
+                data-tilt
+              >
+                <img
+                  src="./assets/images/Hero-image.png"
+                  width="500"
+                  height="680"
+                  alt="Ali Hassan"
+                  class="img-cover"
+                />
+              </div>
+
+              <span class="span title">Ali Hassan</span>
+            </div>
+
+            <div class="hero-content">
+              <h3 class="start-p">This is ME</h3>
+              <h1 class="h1 title">Ali Hassan</h1>
+
+              <p class="hero-introduction">
+                i am Front-End Web Developer. It's been 2 years, I’m working as
+                web developer.i have developed many website and also provided my
+                services to other students by getting their projects ready
+                ASAP. Super  in
+                    <section class="animation">
+                <div class="first"><div>I Love To develope</div></div>
+                <div class="second"><div>Profesional Java script developer</div></div>
+                <div class="third"><div>Proficient React Engineer</div></div>
+              </section>
+              </p>
+          
+
+              <div class="wrapper">
+                <a target="_blank" href="https://www.goodcv.com/cv/95a373c763a94b144850793bfa327ae1"   download class="btn btn:hover">
+                  <span class="span">View CV</span>
+
+                  <ion-icon
+                    name="cloud-download-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+                </a>
+
+               
+              </div>
+            </div>
+          </div>
+        </div>
+  <!-- About  section -->
+
+    <div class="about-section" id="about">
+      <div class="about-left">
+        <img src="assets/images/about-image.svg" alt="" class="about-image">
+      </div>
+      <div class="about-rigth">
+    <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <p class="tab-btn title h6 active" data-tab-btn="about">About Me</p>
+              </li>
+
+              <li class="tab-btn-item">
+                <p class="tab-btn title h6" data-tab-btn="skills">Skills</p>
+              </li>
+
+              <li class="tab-btn-item">
+                <p class="tab-btn title h6" data-tab-btn="experience">Experience</p>
+              </li>
+
+           
+
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+           
+              
+             
+
+                <div class="about-content">
+                  <h1> My Story</h1>
+                  <p>Experienced JavaScript Developer with 5 years in the industry. Proficient with React. Used problem-solving aptitude to enhance application performance by 14%. Created data visualization tools and integrated designs.</p>
+                  <h3>I developing website last 2 years</h3>
+                  <p> My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences.</p>
+                  <ul class="social-links">
+                   <li class="socail-icon"><a target="_blank" href="https://web.facebook.com/profile.php?id=100081790741765"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                   <li class="socail-icon"><a target="_blank" href="https://www.instagram.com/alihassanengineer/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                   <li class="socail-icon"><a target="_blank" href="https://www.linkedin.com/in/ali-hassan-45120b240"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                   <li class="socail-icon"><a target="_blank" href="https://github.com/engineeralihassan"><ion-icon name="logo-github"></ion-icon></a></li>
+                  
+                  </ul>
+
+
+
+                </div>
+
+            
+            </div>
+
+            <div class="tab-content skills-tab" data-tab-content="skills">
+               <h1>My Skills</h1>
+              <ul class="skills-container">
+                <li class="skill-box">
+                  <div class="skill-icon"><ion-icon  class="icon"  name="logo-html5"></ion-icon></div>
+                  <div class="skill-name">Web Designing</div>
+               </li>
+                 <li class="skill-box">
+                  <div class="skill-icon"> <ion-icon  class="icon"  name="logo-css3"></ion-icon></div>
+                  <div class="skill-name">Fornt-End developement</div>
+               </li>
+                 <li class="skill-box">
+                  <div class="skill-icon"> <ion-icon  class="icon"  name="laptop-outline"></ion-icon></div>
+                  <div class="skill-name">Web development</div>
+               </li>
+                 <li class="skill-box">
+                  <div class="skill-icon"><ion-icon  class="icon"  name="logo-wordpress"></ion-icon></div>
+                  <div class="skill-name">Wordpress</div>
+               </li>
+                 <li class="skill-box">
+                  <div class="skill-icon"><ion-icon   class="icon"  name="logo-javascript"></ion-icon></div>
+                  <div class="skill-name">Java script</div>
+               </li>
+                 <li class="skill-box">
+                  <div class="skill-icon"><ion-icon class="icon" name="logo-react"></ion-icon></div>
+                  <div class="skill-name">React js</div>
+                
+               </li>
+            </ul>
+            </div>
+
+            <div class="tab-content" data-tab-content="experience">
+             <h1>My Experience</h1>
+             <p>Meticulous web developer with over 2 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach.  Implemented new responsive website approach which increased mobile traffic by 20%.</p>
+              <ul class="skills-container">
+             
+                 <li class="skill-box">
+                  <div class="skill-icon"> <ion-icon  class="icon"  name="laptop-outline"></ion-icon></div>
+                  <div class="skill-name">Web development</div>
+               </li>
+                 <li class="skill-box">
+                  <div class="skill-icon"><ion-icon  class="icon"  name="logo-wordpress"></ion-icon></div>
+                  <div class="skill-name">Wordpress</div>
+               </li>
+                 <li class="skill-box">
+                  <div class="skill-icon"><ion-icon   class="icon"  name="logo-javascript"></ion-icon></div>
+                  <div class="skill-name">Java script</div>
+               </li>
+                 <li class="skill-box">
+                  <div class="skill-icon"><ion-icon class="icon" name="logo-react"></ion-icon></div>
+                  <div class="skill-name">React js</div>
+                
+               </li>
+            </ul>
+            </div>
+
+         
+
+         
+
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      </div> 
+<!-- Services Section -->
+<div class="services-section" id="services">
+  <h1 >My Services</h1>
+
+<div class="services-container">
+  <div class="service-box">
+  <ion-icon class="service-icon" name="color-filter-outline"></ion-icon>
+    <h2 class="service-heaing">Website Design</h2>
+    <p class="service-content">Design best user friendly websites is my pasion I love poeples are liked my work as a web designer </p>
+   <h3 class="service-number">01</h3>
+  </div>
+    <div class="service-box">
+     <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+    <h2 class="service-heaing">web Developement</h2>
+    <p class="service-content">Design best user friendly websites is my pasion I love poeples are liked my work as a web designer </p>
+   <h3 class="service-number">02</h3>
+  </div>
+    <div class="service-box">
+    <ion-icon class="service-icon" name="logo-react"></ion-icon>
+    <h2 class="service-heaing">SinglePage Application</h2>
+    <p class="service-content">Design best user friendly websites is my pasion I love poeples are liked my work as a web designer </p>
+   <h3 class="service-number">03</h3>
+  </div>
+    <div class="service-box">
+    <ion-icon class="service-icon" name="podium-outline"></ion-icon>
+    <h2 class="service-heaing">Search Engine</h2>
+    <p class="service-content">Design best user friendly websites is my pasion I love poeples are liked my work as a web designer </p>
+   <h3 class="service-number">04</h3>
+  </div>
+    <div class="service-box">
+       <ion-icon class="service-icon" name="chatbubbles-outline"></ion-icon>
+    <h2 class="service-heaing">Digital markeeting</h2>
+    <p class="service-content">Design best user friendly websites is my pasion I love poeples are liked my work as a web designer </p>
+   <h3 class="service-number">05</h3>
+  </div>
+    <div class="service-box">
+    <ion-icon class="service-icon" name="logo-javascript"></ion-icon>
+    <h2 class="service-heaing">JS development</h2>
+    <p class="service-content">Design best user friendly websites is my pasion I love poeples are liked my work as a web designer </p>
+   <h3 class="service-number">06</h3>
+  </div>
+  
+</div>
+
+
+
+
+
+
+</div>
+<!-- portfolio section -->
+<div class="portfolio-section" id="project">
+  <h1 class="portfolio-heading">Project I done</h1>
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-1.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Creative & experienced digital design studio" class="img-cover">
+
+                <a href="https://royalkitchen.netlify.app
+" target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">01</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">HTML CSS Project</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-2.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Front End Development & Maintenance" class="img-cover">
+
+                <a href="https://alihassangymhero.netlify.app
+" target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">02</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Advance CSS Project</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-3.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Flutter Framework & Warframe Design" class="img-cover">
+
+                <a href="https://payfastbank.netlify.app/index.html" target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">03</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Advance Java script Project</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-4.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Full Web Development Project With JavaScript" class="img-cover">
+
+                <a href="https://branchfiner.netlify.app"  target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">04</p>
+
+
+                <h3 class="title h3">
+                  <a href="
+" class="card-title">Java Script Api Project</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-5.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+
+                <a href="https://blogclub.netlify.app" target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">05</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Java script Project</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+           <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-6.png" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+
+                <a href="#" target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">06</p>
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Simple HTML CSS Project</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+
+
+
+
+</div>
+<!-- Testimonials  section -->
+
+    <section class="testimonials">
+      <h1> Clients Reviews </h1>
+      <p>Over the years I’ve accumulated thousands of projects and have been acquainted with some fantastic people along the way. This page will provide insight into my dealings with them, and hopefully give you a further indication of the quality of my work and of me as a person.</p>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides  testimonial-2 fade">
+          <div class="numbertext">1 / 3</div>
+                          <img src="assets/images/testimonial-1.svg" style="width: 100%" />
+
+          <div class="text">
+            <div class="text-container">
+
+              <h3>5Tech-solutions</h3>
+              <p>Ali was very helpful and fast to respond to my inquiry to help with Wordpress website issues.
+                  His knowledge was comprehensive.</p>
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+                 <img src="assets/images/testimonial-2.svg" style="width: 100%" />
+          <div class="text">
+            <div class="text-container">
+              <h3>Danish Riaz</h3>
+              <p> one of the most talented programmers out there. 
+                 I always  go out of my depth and he's 
+                 never failed </p>
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides  fade">
+          <div class="numbertext">3 / 3</div>
+                 <img src="assets/images/testimonial-3.svg" style="width: 100%" />
+
+            <div class="text">
+            <div class="text-container">
+              <h3>Aleena Naz</h3>
+              <p>Very helpful when building my website, I now have my ecommerce store built from scratch</p>
+           
+            </div>
+          </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+        <div class="next" onclick="plusSlides(1)">&#10095;</div>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"><img src="assets/images/testimonial-2.svg" alt=""></span>
+        <span class="dot" onclick="currentSlide(2)"><img src="assets/images/testimonial-1.svg" alt=""></span>
+        <span class="dot" onclick="currentSlide(3)"><img src="assets/images/testimonial-3.svg" alt=""></span>
+      </div>
+    </section>
+    <!-- contact us  -->
+<div class="contact-section" id="contact">
+  <h1>Get in Touch</h1>
+  <div class="contact-container">
+    <form   action="https://formspree.io/f/xyyayple"
+  method="POST" class="contact-form">
+      
+      <input type="text" name="name" placeholder="Full Name...">
+          <input type="text" name="email" placeholder="Email...">
+          <textarea name="" id="" cols="20" rows="8" placeholder="Message" name="message"></textarea>
+        
+                <a href="#" class="btn btn:hover">
+                  <button ><span type="submit" class="span">send message</span></button>
+
+                  <ion-icon name="send-sharp" aria-hidden="true"></ion-icon>
+                </a>
+              </form>
+    <div class="contact-address">
+      <div class="address-container">
+        <a href="" class="div-icon">
+           <ion-icon name="navigate-sharp" aria-hidden="true"></ion-icon>
+           <span>Chak no 11/1L Okara ,punjab , Pakistan</span>
+        </a>
+         <a href=""class="div-icon">
+           <ion-icon name="mail-sharp" aria-hidden="true"></ion-icon>
+           <span>engineralihassan@gmail.com</span>
+        </a>
+         <a href=""class="div-icon">
+           <ion-icon name="phone-portrait-sharp" aria-hidden="true"></ion-icon>
+           <span>03133324617</span>
+        </a>
+      </div>
+      <div class="social-address">
+            <div class="social-address-icon">
+              <a target="_blank" href="https://web.facebook.com/profile.php?id=100081790741765"><ion-icon name="logo-facebook" aria-hidden="true"></ion-icon></a> 
+            </div>
+               <div class="social-address-icon">
+               <a href="https://www.linkedin.com/in/ali-hassan-45120b240/" target="_blank">
+                <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon></a>
+            </div>
+               <div class="social-address-icon">
+              <a target="_blank" href="https://github.com/engineeralihassan"> <ion-icon  name="logo-github" aria-hidden="true"></ion-icon></a>
+            </div>
+               <div class="social-address-icon">
+              <a target="_blank" href="https://www.instagram.com/alihassanengineer/">
+                 <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon></a>
+            </div>
+            
+      </div>
+    </div>
+  </div>
+</div>
+ <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+         
+      </article>
+    </main>
+<footer class="footer">
+<div class="footer-container">
+  <div class="footer-left">
+    <img src="assets/images/logo.png" alt="" class="footer-logo">
+    <p>if you have any query then feel free to contact with me we done next project together</p>
+    <div class="footer-social-links">
+      <div class="social-address">
+          <div class="social-address-icon">
+              <a target="_blank" href="https://web.facebook.com/profile.php?id=100081790741765"><ion-icon name="logo-facebook" aria-hidden="true"></ion-icon></a> 
+            </div>
+               <div class="social-address-icon">
+               <a href="https://www.linkedin.com/in/ali-hassan-45120b240/" target="_blank">
+                <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon></a>
+            </div>
+               <div class="social-address-icon">
+              <a target="_blank" href="https://github.com/engineeralihassan"> <ion-icon  name="logo-github" aria-hidden="true"></ion-icon></a>
+            </div>
+               <div class="social-address-icon">
+              <a target="_blank" href="https://www.instagram.com/alihassanengineer/">
+                 <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon></a>
+            </div>
+               <div class="social-address-icon">
+              <a target="_blank" href="https://api.whatsapp.com/send/?phone=923133324617&text&type=phone_number&app_absent=0"> <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon></a>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-rigth">
+      <a href="assets/images/Ali-Hassan-Resume.pdf" download class="btn btn:hover">
+                  <span class="span">Download CV</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+  </div>
+</div>
+
+<div class="footer-bottom">
+  <div class="links">
+  <ul class="footerlinks">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#services" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li>
+              <a href="#project" class="navbar-link" data-nav-link>Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+          </ul>
+  </div>
+  <div class="copyrigth">&copy; all rigths are reserved Ali Hassan </div>
+</div>
+
+
+</footer>
+
+
+
+
+
+    <div class="cursor-dot" data-cursor></div>
+    <div class="cursor-outline" data-cursor></div>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
